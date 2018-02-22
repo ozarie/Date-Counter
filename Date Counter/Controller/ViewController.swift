@@ -69,6 +69,8 @@ class ViewController: UIViewController {
             timeLabel.text = "WOW! It seems that \(days) days passed!"
         } else if years == 0 && days == 0 {
             timeLabel.text = "WOW! It seems that \(months) months passed!"
+        } else {
+            timeLabel.text = "WOW! It seems that \(years) years, \(months) months and \(days) days passed!"
         }
         
     }
