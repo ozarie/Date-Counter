@@ -35,6 +35,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D59B9F5203EC1D200C2FE2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A7B0A201B5C410089EFC3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2D59B9F6203EC1F400C2FE2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A7B11201B5C410089EFC3 /* LaunchScreen.storyboard */,
+				2D5A7B0C201B5C410089EFC3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D59B9F7203EC21700C2FE2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A7B0F201B5C410089EFC3 /* Assets.xcassets */,
+				2D5A7B14201B5C410089EFC3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D59B9F8203EC23000C2FE2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2D5A7AFC201B5C410089EFC3 = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				2D5A7B08201B5C410089EFC3 /* AppDelegate.swift */,
-				2D5A7B0A201B5C410089EFC3 /* ViewController.swift */,
-				2D5A7B0C201B5C410089EFC3 /* Main.storyboard */,
-				2D5A7B0F201B5C410089EFC3 /* Assets.xcassets */,
-				2D5A7B11201B5C410089EFC3 /* LaunchScreen.storyboard */,
-				2D5A7B14201B5C410089EFC3 /* Info.plist */,
+				2D59B9F8203EC23000C2FE2C /* Model */,
+				2D59B9F5203EC1D200C2FE2C /* Controller */,
+				2D59B9F6203EC1F400C2FE2C /* View */,
+				2D59B9F7203EC21700C2FE2C /* Supporting Files */,
 			);
 			path = "Date Counter";
 			sourceTree = "<group>";
