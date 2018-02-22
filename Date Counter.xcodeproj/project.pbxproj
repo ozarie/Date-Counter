@@ -56,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				2D5A7B0F201B5C410089EFC3 /* Assets.xcassets */,
-				2D5A7B14201B5C410089EFC3 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -92,6 +91,7 @@
 				2D59B9F5203EC1D200C2FE2C /* Controller */,
 				2D59B9F6203EC1F400C2FE2C /* View */,
 				2D59B9F7203EC21700C2FE2C /* Supporting Files */,
+				2D5A7B14201B5C410089EFC3 /* Info.plist */,
 			);
 			path = "Date Counter";
 			sourceTree = "<group>";
